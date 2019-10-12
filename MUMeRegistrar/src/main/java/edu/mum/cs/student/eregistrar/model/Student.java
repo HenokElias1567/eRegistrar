@@ -1,9 +1,6 @@
 package edu.mum.cs.student.eregistrar.model;
 
-import org.hibernate.mapping.PrimaryKey;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.lang.NonNull;
-
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.time.LocalDate;
@@ -27,10 +24,8 @@ public class Student {
     @Min(value = 0,message = "Can not be less tha Zero")
     @Max(value = 4,message = "Can not be more than 4")
     private Double cgpa;
-//    @NonNull@NotBlank@NotEmpty@Column(nullable = false)
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate enrollmentDate;
-//    @NonNull@NotBlank@NotEmpty@Column(nullable = false)
     private String international;
 
     public Student() {

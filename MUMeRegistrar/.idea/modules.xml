@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eRegistrarLab-8.iml" filepath="$PROJECT_DIR$/eRegistrarLab-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../eLibrary/eLibrarySearchLab-8/elibrary-democrud-web.iml" filepath="$PROJECT_DIR$/../../eLibrary/eLibrarySearchLab-8/elibrary-democrud-web.iml" />
+    </modules>
+  </component>
+</project>

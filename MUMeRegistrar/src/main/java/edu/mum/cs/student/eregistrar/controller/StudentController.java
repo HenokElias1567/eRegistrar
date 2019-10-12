@@ -36,7 +36,7 @@ public class StudentController {
         modelAndView.setViewName("student-list");
        return modelAndView;
     }
-    //#########################################################
+
     @RequestMapping("/search")
     public ModelAndView search(@RequestParam String search,@RequestParam(defaultValue = "0") int pageno,Model model){
         Page<Student> students=studentService.search(search,pageno);
@@ -50,7 +50,6 @@ public class StudentController {
         return modelAndView;
     }
 
-    //#########################################################
     @RequestMapping("/add-new-student")
     public String addStudent(Model model){
 
